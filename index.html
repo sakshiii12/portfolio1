@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY FIRST PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<section>
+    <!--Navbar section starts-->
+    <section class="navbar">
+            <div class="logo-container">
+               <span class="logo">SS</span>
+            </div>
+            <div class="navlinks">
+               <ol class="navlist">
+            <a href="#about"><li class="navlist-items">About Me</li></a>    
+            <a href="#skills"><li class="navlist-items">Skills</li></a>
+            <a href="#work"><li class="navlist-items">Work</li></a>    
+            <a href="#contacts"><li class="navlist-items">Contact</li></a>   
+               </ol>
+               <a class="button" href="#">Resume</a>
+            </div>
+    </section>
+    <!--Navbar section ends-->
+
+    <!--Main section starts-->
+    <section id="hero">
+        <div class="socialmed">
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-codepen"></i>
+        <div class="line"></div></div>
+        <div class="intro">
+          <div class="name">Hi, my name is</div>
+          <h1 data-aos="fade-up" data-aos-once="true"> Sakshi Shah.<br>
+           <span data-aos="fade-up" data-aos-once="true"> I do Web and AI/ML.</span></h1>
+    
+        <div class="intro-text">I am a Computer engineer specializing in building (and occasionally designing) 
+            exceptional digital experiences. Currently, I am in my pre-final year of B.E. at Government 
+            Engineering College,Gandhinagar.</div>
+            <br>
+            <a class="button" href="#">Check out my Resume</a></div>
+        
+        <div class="email-section">
+          <div class=""> <a class="mail"href="sakshijs1211@gmail.com">sakshijs1211@gmail.com</a>
+        </div>
+        <div class="line2"></div></div>
+    </section>
+    <!--Main section ends-->
+
+    <!--About-->
+    <div id="about" data-aos="fade-up"data-aos-once="true">
+       <div class="head1"><h5>01.</h5><h3>About Me</h3>
+       <div class="line3"></div></div>
+       <div class="about-content">
+         <div class="text-content">
+          <p>Hello! My name is Sakshi and I enjoy creating things that live on the internet. 
+           I also have a keen interest in the field of Artifical Intelligence which I am currently exploring.
+           I am in GEC Gandhinagar, pursuing degree of B.E.
+           Here are a few technologies I’ve been working with recently:</p>
+          <ul>
+            <li>Javascript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Python</li>
+          </ul>
+         </div>
+       <div class="image"><div class="image-container">
+            <img class="image1" src="images/about.jpeg" height="250px" width="250px">
+             <div class="imgborder"></div>
+        </div>
+       </div></div>
+    </section>
+    <!--About ends-->
+
+    <!--Skills start-->
+    <section id="skills" data-aos="fade-up">
+      <div class="skills-class"> 
+        <div class="head1"><h5>02.</h5><h3>Skills</h3>
+            <div class="line3"></div></div>
+        
+            <div class="skills-container">
+                <div class="skill-items-container">
+                    <button id="Google" class="skill-items" onclick="updateWork(this.id)">Google</button>
+                    <button id="Microsoft" class="skill-items" onclick="updateWork(this.id)">Microsoft</button>
+                    <button id="Apple" class="skill-items" onclick="updateWork(this.id)">Apple</button>
+                    <button id="Facebook" class="skill-items"onclick="updateWork(this.id)">Facebook</button>
+                </div>
+
+                <div class="skills-description">
+                    <div id="role" class="skill-name">Software Engineer</div>
+                    <div id="timeline" class="time">July 2018-Present</div>
+                    <div id="desc" class="describe">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, minima nobis! Ducimus numquam tempore possimus consequatur minima animi, culpa exercitationem iste laboriosam, alias accusamus ratione!</div>
+                </div>
+            </div></div>
+    </section>
+    
+    <!--Skills end-->
+
+    <!--Work section starts-->
+    <section id="work">
+        <div class="work-class"> 
+            <div class="head1"><h5>03.</h5><h3>Work</h3>
+              <div class="line3"></div></div></div>
+           <div class="allproject">
+             <div class="work-container">
+                <div class="image2" data-aos="flip-right">
+                <img src="images/portfolio.png" height="300px" width="600px">
+                </div>
+                <div class="workdescon">
+                <div class="workhead">
+                    <h3>Portfolio Website</h3>
+                </div>
+                <div class="workdes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam officiis eligendi, aperiam et excepturi saepe mollitia consequatur exercitationem numquam minima! Saepe delectus voluptatibus dolorem laborum?</div>
+                </div>
+              </div>
+
+              <div class="work-container2">
+                <div class="workdescon2">
+                    <div class="workhead">
+                        <h3>Quick Notes</h3>
+                    </div>
+                    <div class="workdes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam officiis eligendi, aperiam et excepturi saepe mollitia consequatur exercitationem numquam minima! Saepe delectus voluptatibus dolorem laborum?</div>
+                    </div>
+              
+              <div class="image3" data-aos="flip-left">
+                <img src="images/notes.png" height="300px" width="600px">
+                </div></div>
+        </div>
+      </section>
+    <!--Work section ends-->
+    <section id="otherprojects">
+        <div class="pclass"> 
+            <div class="line3"></div>
+            <h3>Other Noteworthy Projects</h3>
+              <div class="line3"></div></div>
+
+              <div class="op">
+                <div class="boxes" data-aos="zoom-in">
+                    <i class="fa-regular fa-folder"></i>
+                    <div class="headop"><h2>Integrating Agolia Search With Multisite</h2>
+                    Building a custom Multisite compatible Wordpress Plugin to build Global Search with Algolia.
+                    </div>
+                    <div class="list"><ul><li>Algolia</li>
+                    <li>PHP</li>
+                    <li>Wordpress</li></ul>
+                    </div>
+                    </div>
+               
+                <div class="boxes"data-aos="zoom-in">
+                    <i class="fa-regular fa-folder"></i>
+                    <div class="headop"><h2>Time to have more Fun</h2>
+                    A single page web app for helping me choose where to travel.
+                    </div>
+                    <div class="list"><ul><li>Next.js</li>
+                    <li>CSS</li>
+                    <li>Firebase</li></ul>
+                    </div>
+               </div>
+        
+               <div class="boxes"data-aos="zoom-in">
+                <i class="fa-regular fa-folder"></i>
+                <div class="headop"><h2>Building a Headless Mobile App CMS From Scratch</h2>
+                Find out how we built a custom headless CMS.
+                </div>
+                <div class="list">
+                <ul><li>Node</li>
+                <li>Vue</li>
+                <li>Express</li></ul></div>
+               </div>
+            </div>
+          <div class="boxbut"><a class="button1" href="#">Show More</a></div>
+    </section>
+<!--Work section ends-->
+
+<!--contact section starts-->
+<section id="contacts" data-aos="fade-up"><div class="contact">
+    <h5>04.What's next?</h5>
+    <h1>Get In Touch</h1><br>
+    <p> Whether you have a question or just want to say hi, I’ll try my best to get back to you!</p>
+<br><br>
+<a class="button1" href="#">Say Hello</a></div>
+</section>
+<!--Contact section ends-->
+<!--Footer section-->
+<div class=footer>
+  <i class="fa-brands fa-github"></i>
+  <i class="fa-brands fa-square-instagram"></i>
+  <i class="fa-brands fa-linkedin-in"></i>
+  <i class="fa-brands fa-codepen"></i></div>
+<div class="copyright">All Copyright Reserved Sakshi Shah@2023</div>
+
+<!--Footer ends-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="data.js"></script>
+<script>
+    AOS.init();
+  </script>
+</body>
+</html>
